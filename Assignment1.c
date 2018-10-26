@@ -106,11 +106,8 @@ void symmetricDifference(int setA[],int setB[],int resultant[],int a,int b)
 		{
 			int resultant1[20];
 			int resultant2[20];
-			int x,y;
 			Difference(setA,setB,resultant1,a,b);
 			Difference(setB,setA,resultant2,b,a);
-			int t;
-
 			Union(resultant1,resultant2,resultant,a,b);
 
 
