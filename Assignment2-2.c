@@ -160,9 +160,6 @@ int main(void) {
 		switch(choice)
 			{
 			case 1:
-
-
-
 				printf("Enter Rows of Matrix A\n");
 				scanf("%d",&i1);
 				printf("Enter Columns of Matrix A\n");
@@ -182,7 +179,7 @@ int main(void) {
 					free(matrixB);
 				}
 				matrixB=(int *)malloc(sizeof(int)*i2*j2);
-				accept(matrixB,i1,j1);
+				accept(matrixB,i2,j2);
 				c++;
 				break;
 
